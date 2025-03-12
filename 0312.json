@@ -1,0 +1,52 @@
+{
+  "billingPeriod": "2025-02",
+  "currency": "USD",
+  "services": [
+    {
+      "projectId": "project-123",
+      "serviceName": "Compute Engine",
+      "cost": 125.67,
+      "usageHours": 240,
+      "dateRange": "2025-02-01 to 2025-02-28",
+      "region": "us-central1",
+      "labels": {
+        "env": "prod",
+        "team": "backend"
+      }
+    },
+    {
+      "projectId": "project-123",
+      "serviceName": "Cloud Storage",
+      "cost": 75.34,
+      "dataStoredGB": 500,
+      "dateRange": "2025-02-01 to 2025-02-28",
+      "region": "us-central1",
+      "labels": {
+        "env": "prod"
+      }
+    },
+    {
+      "projectId": "project-123",
+      "serviceName": "BigQuery",
+      "cost": 60.12,
+      "queryBytesProcessed": 2000000000,
+      "dateRange": "2025-02-01 to 2025-02-28",
+      "region": "us-central1",
+      "labels": {
+        "env": "prod",
+        "department": "analytics"
+      }
+    },
+    {
+      "projectId": "project-123",
+      "serviceName": "Cloud SQL",
+      "cost": 45.50,
+      "instanceHours": 300,
+      "dateRange": "2025-02-01 to 2025-02-28",
+      "region": "asia-east1",
+      "labels": {
+        "env": "staging"
+      }
+    }
+  ]
+}
