@@ -1,0 +1,24 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  labels:
+    app: ollama
+  name: ollama
+  namespace: ollama
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: ollama
+  template:
+    metadata:
+      labels:
+        app: ollama
+    spec:  
+      containers:
+      - image: ollama/ollama:latest
+        name: ollama
+        ports:
+        - containerPort: 11434
+          name: http
+          protocal: TCP
