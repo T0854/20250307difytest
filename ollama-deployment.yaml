@@ -22,3 +22,8 @@ spec:
         - containerPort: 11434
           name: http
           protocol: TCP
+        resources:
+          requests:
+            memory: 16Gi
+          limits:
+            memory: 16Gi
