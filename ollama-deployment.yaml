@@ -21,4 +21,4 @@ spec:
         ports:
         - containerPort: 11434
           name: http
-          protocal: TCP
+          protocol: TCP
