@@ -11,7 +11,7 @@ spec:
   - port: 80
     name: http
     targetPort: 11434
-    protocal: TCP
+    protocol: TCP
     nodePort: 30007
   selector:
     app: ollama
