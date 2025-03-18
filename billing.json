@@ -1,0 +1,35 @@
+{
+  "project_id": "gcp-simulation-project",
+  "billing_period": {
+    "start": "2025-03-01",
+    "end": "2025-03-31"
+  },
+  "total_cost": 1234.56,
+  "currency": "USD",
+  "services": [
+    {
+      "service_name": "Compute Engine",
+      "cost": 500.00,
+      "usage": "1200 vCPU-hours",
+      "region": "us-central1"
+    },
+    {
+      "service_name": "Cloud Storage",
+      "cost": 200.00,
+      "usage": "5000 GB-months",
+      "region": "us-central1"
+    },
+    {
+      "service_name": "BigQuery",
+      "cost": 300.00,
+      "usage": "10 TB scanned",
+      "region": "us-central1"
+    },
+    {
+      "service_name": "Cloud Functions",
+      "cost": 234.56,
+      "usage": "1000 invocations",
+      "region": "us-central1"
+    }
+  ]
+}
